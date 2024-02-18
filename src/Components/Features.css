@@ -1,0 +1,59 @@
+.Features {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .box {
+    background-color: whitesmoke; /* Default background color */
+    color: red; /* Default text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .box:hover {
+    background-color: red; /* Hover background color */
+    color: white; /* Hover text color */
+  }
+  
+  .box {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: filter 0.3s ease;
+  }
+  
+  .box:hover img {
+    filter: brightness(0) invert(1); /* Invert the colors on hover */
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .bttn {
+    shape-margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: red; /* Default button background color */
+    color: white; /* Default button text color */
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .bttn:hover {
+    background-color: white; /* Hover button background color */
+    color: red; /* Hover button text color */
+  }
+  

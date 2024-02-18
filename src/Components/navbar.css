@@ -1,0 +1,39 @@
+nav {
+    background-color: white; /* White background color */
+    color: red; /* Black text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #555; /* Darker gray on hover */
+  }
+  
+  .homebutton {
+    background-color: red; /* Black background color */
+    color: white; /* White text color */
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
